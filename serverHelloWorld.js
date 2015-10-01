@@ -19,11 +19,4 @@ function serverFun(req, res) {
          res.write(lines)
         
     } catch (exp) {
-        console.error("Could not read", filePath);
-    }
-    res.end("Hello World!") 
-
-}
-
-var server = http.createServer(serverFun);
-server.listen(8080); //8080 is a port localhost
+    
