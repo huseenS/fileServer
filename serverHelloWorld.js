@@ -19,4 +19,6 @@ function serverFun(req, res) {
          res.write(lines)
         
     } catch (exp) {
+    }
+}
     
